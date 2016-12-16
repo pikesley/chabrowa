@@ -1,1 +1,3 @@
-#
+after_success:
+  - git remote add deploy
+  - git push deploy https://git.overleaf.com/7481467ddzgwnsjkcdp
